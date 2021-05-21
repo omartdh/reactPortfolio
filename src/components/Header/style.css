@@ -1,0 +1,68 @@
+a {
+  color: rgb(33, 114, 165);
+}
+a:hover {
+  color: rgb(78, 140, 181);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', serif;
+}
+
+#header {
+  margin-top: 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 235px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 3px 16px 0 0;
+  background: rgba(27, 27, 27, 0.658);
+  overflow-y: auto;
+  text-align: center;
+}
+
+.github, .linkedin {
+  font-size: 18px;
+  display: inline-block;
+  background: rgb(41, 39, 39);
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  margin-top:280px ;
+}
+@media (max-width: 1199px) {
+  #header {
+      top: -280px;
+  }
+  #main {
+      margin-top: 0;
+  }
+}
