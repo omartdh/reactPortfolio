@@ -1,22 +1,41 @@
 import React from "react";
 import "./style.css";
+import img1 from "../../../images/IMG1.jpg"
+import img2 from "../../../images/IMG2.jpg"
+import img3 from "../../../images/IMG3.jpg"
 
 function Portfolio() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div id="portfolio" className="portfolio">
+        <div className="container">
+          <div className="section-title">
+            <h2>Portfolio</h2>
+            <p>Some of the web apps that I have done during the bootcamp:</p>
+          </div>
+          <div className="card-body">
+            <div className="row">
+              <div className="col-lg-4 col-sm-6 col-xs-12 mb-4">
+                <a href="https://mrmatcke.github.io/Project-for-Random-Ozone-wheelers/">
+                  <img src={img1} alt="img1" className="img-thumbnail" />
+                </a>
+              </div>
+
+              <div className="col-lg-4 col-sm-6 col-xs-12 mb-4">
+                <a href="https://omartdh.github.io/weatherApi/">
+                  <img src={img3} alt="img3" className="img-thumbnail" />
+                </a>
+              </div>
+
+              <div className="col-lg-4 col-sm-6 col-xs-12 mb-4">
+                <a href="https://omartdh.github.io/workDayScheduler/">
+                  <img src={img2} alt="img2" className="img-thumbnail" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
