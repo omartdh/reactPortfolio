@@ -12,8 +12,8 @@ function Header() {
                 <div class="d-flex flex-column">
                     <div class="profile">
                       <img src={img3} alt="Omar" class="img-fluid rounded-circle"></img>
-                      <a href="https://github.com/omartdh" class="github"><i class="bx bxl-github"></i></a>
-                      <a href="https://www.linkedin.com/in/omar-dahmash-b34693a4/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                      {/* <a href="https://github.com/omartdh" class="github"><i class="bx bxl-github"></i></a>
+                      <a href="https://www.linkedin.com/in/omar-dahmash-b34693a4/" class="linkedin"><i class="bx bxl-linkedin"></i></a> */}
                     </div>
                 </div>
               </div>

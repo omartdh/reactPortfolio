@@ -40,7 +40,7 @@ return (
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.886563050362!2d-117.82838754942325!3d33.68600134429421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdc28d22db60d%3A0xbf45c6d681ca178f!2sCity%20of%20Irvine!5e0!3m2!1sen!2sus!4v1618471361364!5m2!1sen!2sus" frameborder="0" id="googlm" allowfullscreen></iframe>
         </div>
 
-          <div className="container">
+          {/* <div className="container">
                           <div className="card-body">
                             <div className="row">
                           
@@ -71,8 +71,8 @@ return (
                           
                         </div>
                  </div>
-            </div>
-        </div>
+            </div> */}
+        </div> 
 
     </div>
 

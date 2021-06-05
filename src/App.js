@@ -7,11 +7,12 @@ import About from "./components/pages/About/index";
 import Portfolio from "./components/pages/Portfolio/index";
 import Contact from "./components/pages/Contact/index";
 import Footer from "./components/Footer";
+import "./style.css"
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container1">
         <Navbar />
         <Header />
         <Route exact path="/" component={Home} />
