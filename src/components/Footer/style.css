@@ -1,6 +1,5 @@
 footer {
-  background: rgba(26, 25, 25, 0.94);
-  height: auto;
+  background: rgb(39 53 48 / 36%);
   width: 100vw;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 0px;
@@ -54,7 +53,7 @@ footer {
 }
 
 .socials a i{
-  font-size: 32px;
+  font-size: 32 px;
   text-align: center;
   transition: color .4s ease;
   letter-spacing: 20px;    

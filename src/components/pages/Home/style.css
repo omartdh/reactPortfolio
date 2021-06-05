@@ -6,30 +6,30 @@
   font-weight: 200;
   font-family: 'Arvo', serif;
 }
-#homePage {
+/* #homePage {
     width: 100%;
-    /* height: 0vh; */
-    /* background: url("img22.jpeg") top center; */
-    background-size: cover;
-  }
+    height: 100vh;
+    background: url("img22.jpeg") top center;
+     background-size: cover;
+  } */
   
   #homePage::before {
     content: "";
-    background: rgb(5 13 24 / 47%);
-    /* position: absolute;
-    /* background: url("img22.jpeg") top center; */
-    background-size: cover; 
+    /* background: rgb(5 13 24 / 47%); */
+     position: absolute;
+     /* background: url("img22.jpeg") top center; */
+     background-size: cover;
     bottom: 0px;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    /* z-index: 1; */
 }
-  #homePage .homePage-container {
+  /* #homePage .homePage-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
-  }
+  } */
   #homePage h1{
     text-align: center;
     margin: 350px 0 10px 0;
